@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all {
+  background: mediumseagreen;
+  padding: 16px;
+  width: 100px;
+  color: white;
+  transition: all 0.5s ease 0s;
+}
+  
+.all:hover {
+  transform: scale(1.3, 1.3);
+}
